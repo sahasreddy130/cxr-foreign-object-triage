@@ -1,0 +1,27 @@
+# Medical images, crops, worksheets, and derived identifiers
+annotations/
+data/
+scratch/
+workdir/
+*.jpg
+*.jpeg
+
+# Model weights and training outputs
+*.pt
+runs/
+weights/
+
+# Per-image and intermediate outputs: keep only approved aggregate tables
+results/*
+!results/metrics_test.csv
+!results/operating_point_val_to_test.csv
+!results/per_category_test_whole640.csv
+
+# Credentials and local state
+.env
+.env.*
+kaggle.json
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db

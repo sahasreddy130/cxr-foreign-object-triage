@@ -1,0 +1,20 @@
+# Pinned to lower bounds that are known to work together.
+# In Colab, torch / numpy / pandas / matplotlib / scikit-learn are preinstalled;
+# only ultralytics and kaggle normally need fetching.
+
+ultralytics>=8.4.0        # YOLO26 support
+torch>=2.2
+torchvision>=0.17
+
+numpy>=1.26
+pandas>=2.0
+pillow>=10.0
+matplotlib>=3.8
+scikit-learn>=1.4         # roc_curve, roc_auc_score
+scikit-image>=0.22        # required by the challenge's froc.py only
+
+kaggle>=1.6               # dataset download
+
+# Optional. Only needed for `predict.py --backend sahi`, which cross-checks the
+# built-in tiling against the reference implementation.
+# sahi>=0.11
