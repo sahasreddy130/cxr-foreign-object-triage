@@ -1,0 +1,5 @@
+tag,target_sensitivity,threshold_selected_on,threshold_achievable_on_validation,threshold_from_validation,validation_n_images,validation_n_positive_images,validation_n_clean_images,validation_sensitivity,validation_specificity,validation_ppv,validation_flagged_per_100_clean,test_n_images_at_validation_threshold,test_n_positive_images_at_validation_threshold,test_n_clean_images_at_validation_threshold,test_sensitivity_at_validation_threshold,test_specificity_at_validation_threshold,test_ppv_at_validation_threshold,test_flagged_per_100_clean_at_validation_threshold
+tiled640_ov20,0.95,validation,True,0.2158477753400802,1000,500,500,0.95,0.26,0.5621301775147929,74.0,1000,500,500,0.954,0.316,0.5824175824175825,68.4
+whole1280,0.95,validation,True,0.0380051732063293,1000,500,500,0.95,0.454,0.6350267379679144,54.6,1000,500,500,0.938,0.54,0.670958512160229,46.0
+whole640,0.95,validation,True,0.0276874620467424,1000,500,500,0.95,0.616,0.712143928035982,38.4,1000,500,500,0.936,0.676,0.7428571428571429,32.4
+whole960,0.95,validation,True,0.0254919994622468,1000,500,500,0.95,0.49,0.6506849315068494,51.0,1000,500,500,0.958,0.592,0.7013177159590044,40.8
